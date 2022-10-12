@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Hotel" duration-ms="17692" started-at="2022-10-02T08:44:38 IST" finished-at="2022-10-02T08:44:56 IST">
+    <groups>
+      <group name="regression">
+        <method signature="Runnerclass.loginpage_Details()[pri:1, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="loginpage_Details" class="hotelbookingrunnerclass.Runnerclass"/>
+        <method signature="Runnerclass.logoutpage_Details()[pri:5, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="logoutpage_Details" class="hotelbookingrunnerclass.Runnerclass"/>
+        <method signature="Runnerclass.searchpage_Details()[pri:2, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="searchpage_Details" class="hotelbookingrunnerclass.Runnerclass"/>
+        <method signature="Runnerclass.selectpage_Details()[pri:3, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="selectpage_Details" class="hotelbookingrunnerclass.Runnerclass"/>
+        <method signature="Runnerclass.bookingpage_Details()[pri:4, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="bookingpage_Details" class="hotelbookingrunnerclass.Runnerclass"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="hotelboooking" duration-ms="17692" started-at="2022-10-02T08:44:38 IST" finished-at="2022-10-02T08:44:56 IST">
+      <class name="hotelbookingrunnerclass.Runnerclass">
+        <test-method status="PASS" signature="openingbrowser(java.lang.String)[pri:0, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="openingbrowser" is-config="true" duration-ms="3634" started-at="2022-10-02T08:44:38 IST" finished-at="2022-10-02T08:44:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingbrowser -->
+        <test-method status="PASS" signature="checking_Before_Title()[pri:0, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="checking_Before_Title" is-config="true" duration-ms="6" started-at="2022-10-02T08:44:42 IST" description="Verify title" finished-at="2022-10-02T08:44:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checking_Before_Title -->
+        <test-method status="PASS" signature="loginpage_Details()[pri:1, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="loginpage_Details" duration-ms="1778" started-at="2022-10-02T08:44:42 IST" finished-at="2022-10-02T08:44:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage_Details -->
+        <test-method status="PASS" signature="checking_Before_Title()[pri:0, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="checking_Before_Title" is-config="true" duration-ms="7" started-at="2022-10-02T08:44:43 IST" description="Verify title" finished-at="2022-10-02T08:44:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checking_Before_Title -->
+        <test-method status="PASS" signature="searchpage_Details()[pri:2, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="searchpage_Details" duration-ms="1486" started-at="2022-10-02T08:44:43 IST" depends-on-methods="hotelbookingrunnerclass.Runnerclass.loginpage_Details" finished-at="2022-10-02T08:44:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchpage_Details -->
+        <test-method status="PASS" signature="checking_Before_Title()[pri:0, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="checking_Before_Title" is-config="true" duration-ms="6" started-at="2022-10-02T08:44:45 IST" description="Verify title" finished-at="2022-10-02T08:44:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checking_Before_Title -->
+        <test-method status="PASS" signature="selectpage_Details()[pri:3, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="selectpage_Details" duration-ms="1017" started-at="2022-10-02T08:44:45 IST" depends-on-methods="hotelbookingrunnerclass.Runnerclass.searchpage_Details" finished-at="2022-10-02T08:44:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectpage_Details -->
+        <test-method status="PASS" signature="checking_Before_Title()[pri:0, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="checking_Before_Title" is-config="true" duration-ms="9" started-at="2022-10-02T08:44:46 IST" description="Verify title" finished-at="2022-10-02T08:44:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checking_Before_Title -->
+        <test-method status="PASS" signature="bookingpage_Details()[pri:4, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="bookingpage_Details" duration-ms="8239" started-at="2022-10-02T08:44:46 IST" depends-on-methods="hotelbookingrunnerclass.Runnerclass.selectpage_Details" finished-at="2022-10-02T08:44:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingpage_Details -->
+        <test-method status="PASS" signature="checking_Before_Title()[pri:0, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="checking_Before_Title" is-config="true" duration-ms="6" started-at="2022-10-02T08:44:54 IST" description="Verify title" finished-at="2022-10-02T08:44:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checking_Before_Title -->
+        <test-method status="PASS" signature="logoutpage_Details()[pri:5, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="logoutpage_Details" duration-ms="544" started-at="2022-10-02T08:44:54 IST" finished-at="2022-10-02T08:44:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutpage_Details -->
+        <test-method status="PASS" signature="closingbrowser()[pri:0, instance:hotelbookingrunnerclass.Runnerclass@3caa4757]" name="closingbrowser" is-config="true" duration-ms="922" started-at="2022-10-02T08:44:55 IST" finished-at="2022-10-02T08:44:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingbrowser -->
+      </class> <!-- hotelbookingrunnerclass.Runnerclass -->
+    </test> <!-- hotelboooking -->
+  </suite> <!-- Hotel -->
+</testng-results>
